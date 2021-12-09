@@ -91,7 +91,7 @@ namespace BasketPriceCalculation
         /// To prevent this we can keep a flag that'll indicate if total has been calculated
         /// and store result in a field variable in this class
         /// then check in this field, return local value if already calculated, otherwise calculate
-        /// Reset the bool flag whenever there's change in the basket. Then we also don't need offersApplied HashSet
+        /// Reset the bool flag whenever there's change in the basket. Then we also don't need the HashSets
         ///
         /// For simplicity in this solution I've kept the below code and HashSets will prevent duplicate calculations
         /// </summary>
